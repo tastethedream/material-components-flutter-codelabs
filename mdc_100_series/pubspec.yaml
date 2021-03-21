@@ -7,10 +7,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.15.6
+  intl: ^0.17.0
 
-  cupertino_icons: ^0.1.0
-  shrine_images: 1.1.1
+  cupertino_icons: ^1.0.2
+  shrine_images: ^2.0.1
 
 dev_dependencies:
   flutter_test:

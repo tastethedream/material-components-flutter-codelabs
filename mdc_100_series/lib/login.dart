@@ -12,6 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -21,6 +23,7 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   // TODO: Add text editing controllers (101)
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,6 +44,20 @@ class _LoginPageState extends State<LoginPage> {
             // TODO: Remove filled: true values (103)
             // TODO: Wrap Password with AccentColorOverride (103)
             // TODO: Add TextField widgets (101)
+            // name
+            TextField(
+              decoration: InputDecoration(
+                filled: true,
+                labelText: 'Username',
+              ),
+            ),
+            //spacer
+            SizedBox(height: 12.0),
+            //password
+            TextField(
+              decoration: InputDecoration(filled: true, labelText: 'Password'),
+              obscureText: true,
+            )
             // TODO: Add button bar (101)
           ],
         ),
